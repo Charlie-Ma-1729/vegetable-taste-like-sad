@@ -52,7 +52,7 @@ h4.nav {
     border: 1px solid var(--Primary, #778A50);
 }
 
-.ig{
+.ig {
     border-right: solid;
     border-width: 1px;
     border-color: #778A50;
@@ -60,7 +60,63 @@ h4.nav {
     margin-right: 8px;
 }
 
-nav{
+nav {
     background-color: #778A50;
-    margin:8px 160px
+    margin: 8px 160px;
+    width: 1120px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 3px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: row;
+}
+
+h2.nav {
+    color: var(--background, #EDF2C5);
+    /* Head2 */
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 24px */
+    padding: 10px 30px;
+    margin: 0;
+}
+
+#banner {
+    width: 1120px;
+    height: 448px;
+    flex-shrink: 0;
+    margin: 16px 160px 0 160px;
+}
+
+#cut {
+    margin: 32px 160px 0 160px;
+    display: flex;
+    flex-direction: row;
+}
+
+#vegee {
+    margin: 0 64px 0 0;
+}
+
+h2.cut {
+    color: var(--background, #EDF2C5);
+    /* Head2 */
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 150%;
+    /* 24px */
+    margin: 0;
+    display: flex;
+    height: 45px;
+    padding: 10px 0 11px 30px;
+    align-items: center;
+    background-color: #778A50;
+    border-radius: 3px;
+    width: 498px;
 }

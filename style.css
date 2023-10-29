@@ -2,6 +2,7 @@ body {
     background-color: #EDF2C5;
     width: 1440px;
     height: 1024px;
+    margin: 0;
 }
 
 header {
@@ -111,12 +112,77 @@ h2.cut {
     font-weight: 900;
     line-height: 150%;
     /* 24px */
-    margin: 0;
+    margin: 0 0 16px 0;
     display: flex;
-    height: 45px;
     padding: 10px 0 11px 30px;
     align-items: center;
     background-color: #778A50;
     border-radius: 3px;
     width: 498px;
+    height: 24px;
+}
+
+#cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.vegee {
+    height: 140px;
+    width: 165px;
+}
+
+#contatent {
+    display: flex;
+    width: 528px;
+    height: 140px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-shrink: 0;
+    background: var(--content_bg, #F7FBDA);
+}
+
+.contatent {
+    color: var(--content_text, #7D7D7D);
+
+    /* Text2 */
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 18px */
+
+}
+
+hr {
+    color: var(--content_text, #7D7D7D);
+    width: 496px;
+    height: 1px;
+    margin: 9px 16px 9px 16px;
+}
+
+footer {
+    display: flex;
+    width: 1440px;
+    height: 60px;
+    justify-content: flex-end;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 3px;
+    background: var(--Primary, #778A50);
+    margin-top: 117px;
+}
+
+.footer {
+    color: var(--background, #EDF2C5);
+
+    /* Text2 */
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    /* 18px */
+    margin: 21px 558px 21px 569px;
 }
